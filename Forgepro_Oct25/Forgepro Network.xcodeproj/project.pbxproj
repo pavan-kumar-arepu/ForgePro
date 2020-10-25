@@ -1,0 +1,625 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		354CE4B1247BA28C00DB2172 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354CE4B0247BA28C00DB2172 /* AppDelegate.swift */; };
+		354CE4B3247BA28C00DB2172 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354CE4B2247BA28C00DB2172 /* SceneDelegate.swift */; };
+		354CE4B5247BA28C00DB2172 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354CE4B4247BA28C00DB2172 /* ViewController.swift */; };
+		354CE4B8247BA28D00DB2172 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354CE4B6247BA28D00DB2172 /* Main.storyboard */; };
+		354CE4BA247BA2C000DB2172 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 354CE4B9247BA2C000DB2172 /* Assets.xcassets */; };
+		354CE4BD247BA2C100DB2172 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 354CE4BB247BA2C100DB2172 /* LaunchScreen.storyboard */; };
+		354CE4C8247BA2C300DB2172 /* Forgepro_NetworkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354CE4C7247BA2C300DB2172 /* Forgepro_NetworkTests.swift */; };
+		354CE4D3247BA2C300DB2172 /* Forgepro_NetworkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 354CE4D2247BA2C300DB2172 /* Forgepro_NetworkUITests.swift */; };
+		3553F01224852D1200608841 /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3553F01124852D1200608841 /* WebKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		354CE4C4247BA2C300DB2172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 354CE4A5247BA28B00DB2172 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 354CE4AC247BA28C00DB2172;
+			remoteInfo = "Forgepro Network";
+		};
+		354CE4CF247BA2C300DB2172 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 354CE4A5247BA28B00DB2172 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 354CE4AC247BA28C00DB2172;
+			remoteInfo = "Forgepro Network";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		354CE4AD247BA28C00DB2172 /* Forgepro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Forgepro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		354CE4B0247BA28C00DB2172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		354CE4B2247BA28C00DB2172 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		354CE4B4247BA28C00DB2172 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		354CE4B7247BA28D00DB2172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		354CE4B9247BA2C000DB2172 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		354CE4BC247BA2C100DB2172 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		354CE4BE247BA2C100DB2172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		354CE4C3247BA2C300DB2172 /* Forgepro NetworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forgepro NetworkTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		354CE4C7247BA2C300DB2172 /* Forgepro_NetworkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forgepro_NetworkTests.swift; sourceTree = "<group>"; };
+		354CE4C9247BA2C300DB2172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		354CE4CE247BA2C300DB2172 /* Forgepro NetworkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Forgepro NetworkUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		354CE4D2247BA2C300DB2172 /* Forgepro_NetworkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Forgepro_NetworkUITests.swift; sourceTree = "<group>"; };
+		354CE4D4247BA2C300DB2172 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3553F01124852D1200608841 /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		354CE4AA247BA28C00DB2172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3553F01224852D1200608841 /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354CE4C0247BA2C300DB2172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354CE4CB247BA2C300DB2172 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		354CE4A4247BA28B00DB2172 = {
+			isa = PBXGroup;
+			children = (
+				354CE4AF247BA28C00DB2172 /* Forgepro Network */,
+				354CE4C6247BA2C300DB2172 /* Forgepro NetworkTests */,
+				354CE4D1247BA2C300DB2172 /* Forgepro NetworkUITests */,
+				354CE4AE247BA28C00DB2172 /* Products */,
+				3553F01024852D1100608841 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		354CE4AE247BA28C00DB2172 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				354CE4AD247BA28C00DB2172 /* Forgepro.app */,
+				354CE4C3247BA2C300DB2172 /* Forgepro NetworkTests.xctest */,
+				354CE4CE247BA2C300DB2172 /* Forgepro NetworkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		354CE4AF247BA28C00DB2172 /* Forgepro Network */ = {
+			isa = PBXGroup;
+			children = (
+				354CE4B0247BA28C00DB2172 /* AppDelegate.swift */,
+				354CE4B2247BA28C00DB2172 /* SceneDelegate.swift */,
+				354CE4B4247BA28C00DB2172 /* ViewController.swift */,
+				354CE4B6247BA28D00DB2172 /* Main.storyboard */,
+				354CE4B9247BA2C000DB2172 /* Assets.xcassets */,
+				354CE4BB247BA2C100DB2172 /* LaunchScreen.storyboard */,
+				354CE4BE247BA2C100DB2172 /* Info.plist */,
+			);
+			path = "Forgepro Network";
+			sourceTree = "<group>";
+		};
+		354CE4C6247BA2C300DB2172 /* Forgepro NetworkTests */ = {
+			isa = PBXGroup;
+			children = (
+				354CE4C7247BA2C300DB2172 /* Forgepro_NetworkTests.swift */,
+				354CE4C9247BA2C300DB2172 /* Info.plist */,
+			);
+			path = "Forgepro NetworkTests";
+			sourceTree = "<group>";
+		};
+		354CE4D1247BA2C300DB2172 /* Forgepro NetworkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				354CE4D2247BA2C300DB2172 /* Forgepro_NetworkUITests.swift */,
+				354CE4D4247BA2C300DB2172 /* Info.plist */,
+			);
+			path = "Forgepro NetworkUITests";
+			sourceTree = "<group>";
+		};
+		3553F01024852D1100608841 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3553F01124852D1200608841 /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		354CE4AC247BA28C00DB2172 /* Forgepro Network */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354CE4D7247BA2C300DB2172 /* Build configuration list for PBXNativeTarget "Forgepro Network" */;
+			buildPhases = (
+				354CE4A9247BA28C00DB2172 /* Sources */,
+				354CE4AA247BA28C00DB2172 /* Frameworks */,
+				354CE4AB247BA28C00DB2172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Forgepro Network";
+			productName = "Forgepro Network";
+			productReference = 354CE4AD247BA28C00DB2172 /* Forgepro.app */;
+			productType = "com.apple.product-type.application";
+		};
+		354CE4C2247BA2C300DB2172 /* Forgepro NetworkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354CE4DA247BA2C300DB2172 /* Build configuration list for PBXNativeTarget "Forgepro NetworkTests" */;
+			buildPhases = (
+				354CE4BF247BA2C300DB2172 /* Sources */,
+				354CE4C0247BA2C300DB2172 /* Frameworks */,
+				354CE4C1247BA2C300DB2172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				354CE4C5247BA2C300DB2172 /* PBXTargetDependency */,
+			);
+			name = "Forgepro NetworkTests";
+			productName = "Forgepro NetworkTests";
+			productReference = 354CE4C3247BA2C300DB2172 /* Forgepro NetworkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		354CE4CD247BA2C300DB2172 /* Forgepro NetworkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 354CE4DD247BA2C300DB2172 /* Build configuration list for PBXNativeTarget "Forgepro NetworkUITests" */;
+			buildPhases = (
+				354CE4CA247BA2C300DB2172 /* Sources */,
+				354CE4CB247BA2C300DB2172 /* Frameworks */,
+				354CE4CC247BA2C300DB2172 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				354CE4D0247BA2C300DB2172 /* PBXTargetDependency */,
+			);
+			name = "Forgepro NetworkUITests";
+			productName = "Forgepro NetworkUITests";
+			productReference = 354CE4CE247BA2C300DB2172 /* Forgepro NetworkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		354CE4A5247BA28B00DB2172 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Forgepro Network";
+				TargetAttributes = {
+					354CE4AC247BA28C00DB2172 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					354CE4C2247BA2C300DB2172 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 354CE4AC247BA28C00DB2172;
+					};
+					354CE4CD247BA2C300DB2172 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 354CE4AC247BA28C00DB2172;
+					};
+				};
+			};
+			buildConfigurationList = 354CE4A8247BA28B00DB2172 /* Build configuration list for PBXProject "Forgepro Network" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 354CE4A4247BA28B00DB2172;
+			productRefGroup = 354CE4AE247BA28C00DB2172 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				354CE4AC247BA28C00DB2172 /* Forgepro Network */,
+				354CE4C2247BA2C300DB2172 /* Forgepro NetworkTests */,
+				354CE4CD247BA2C300DB2172 /* Forgepro NetworkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		354CE4AB247BA28C00DB2172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354CE4BD247BA2C100DB2172 /* LaunchScreen.storyboard in Resources */,
+				354CE4BA247BA2C000DB2172 /* Assets.xcassets in Resources */,
+				354CE4B8247BA28D00DB2172 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354CE4C1247BA2C300DB2172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354CE4CC247BA2C300DB2172 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		354CE4A9247BA28C00DB2172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354CE4B5247BA28C00DB2172 /* ViewController.swift in Sources */,
+				354CE4B1247BA28C00DB2172 /* AppDelegate.swift in Sources */,
+				354CE4B3247BA28C00DB2172 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354CE4BF247BA2C300DB2172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354CE4C8247BA2C300DB2172 /* Forgepro_NetworkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		354CE4CA247BA2C300DB2172 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				354CE4D3247BA2C300DB2172 /* Forgepro_NetworkUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		354CE4C5247BA2C300DB2172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 354CE4AC247BA28C00DB2172 /* Forgepro Network */;
+			targetProxy = 354CE4C4247BA2C300DB2172 /* PBXContainerItemProxy */;
+		};
+		354CE4D0247BA2C300DB2172 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 354CE4AC247BA28C00DB2172 /* Forgepro Network */;
+			targetProxy = 354CE4CF247BA2C300DB2172 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		354CE4B6247BA28D00DB2172 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				354CE4B7247BA28D00DB2172 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		354CE4BB247BA2C100DB2172 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				354CE4BC247BA2C100DB2172 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		354CE4D5247BA2C300DB2172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Apt Tech (D7B284258A)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		354CE4D6247BA2C300DB2172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Apple Distribution: Apt Tech (D7B284258A)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		354CE4D8247BA2C300DB2172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = D7B284258A;
+				INFOPLIST_FILE = "Forgepro Network/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ForgePro.con.Networks;
+				PRODUCT_NAME = Forgepro;
+				PROVISIONING_PROFILE_SPECIFIER = "ForgeProNetwork Profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		354CE4D9247BA2C300DB2172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = D7B284258A;
+				INFOPLIST_FILE = "Forgepro Network/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 2.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ForgePro.con.Networks;
+				PRODUCT_NAME = Forgepro;
+				PROVISIONING_PROFILE_SPECIFIER = "ForgeProNetwork Profile";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		354CE4DB247BA2C300DB2172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = D7B284258A;
+				INFOPLIST_FILE = "Forgepro NetworkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.forgepronetwork.Forgepro-NetworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forgepro Network.app/Forgepro Network";
+			};
+			name = Debug;
+		};
+		354CE4DC247BA2C300DB2172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "Apple Distribution";
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = D7B284258A;
+				INFOPLIST_FILE = "Forgepro NetworkTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.forgepronetwork.Forgepro-NetworkTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				"PROVISIONING_PROFILE_SPECIFIER[sdk=macosx*]" = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Forgepro Network.app/Forgepro Network";
+			};
+			name = Release;
+		};
+		354CE4DE247BA2C300DB2172 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Forgepro NetworkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.forgepronetwork.Forgepro-NetworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Forgepro Network";
+			};
+			name = Debug;
+		};
+		354CE4DF247BA2C300DB2172 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "Forgepro NetworkUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.app.forgepronetwork.Forgepro-NetworkUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Forgepro Network";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		354CE4A8247BA28B00DB2172 /* Build configuration list for PBXProject "Forgepro Network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354CE4D5247BA2C300DB2172 /* Debug */,
+				354CE4D6247BA2C300DB2172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		354CE4D7247BA2C300DB2172 /* Build configuration list for PBXNativeTarget "Forgepro Network" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354CE4D8247BA2C300DB2172 /* Debug */,
+				354CE4D9247BA2C300DB2172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		354CE4DA247BA2C300DB2172 /* Build configuration list for PBXNativeTarget "Forgepro NetworkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354CE4DB247BA2C300DB2172 /* Debug */,
+				354CE4DC247BA2C300DB2172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		354CE4DD247BA2C300DB2172 /* Build configuration list for PBXNativeTarget "Forgepro NetworkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				354CE4DE247BA2C300DB2172 /* Debug */,
+				354CE4DF247BA2C300DB2172 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 354CE4A5247BA28B00DB2172 /* Project object */;
+}
